@@ -1,0 +1,2 @@
+class EmailApi < ApplicationRecord
+end
