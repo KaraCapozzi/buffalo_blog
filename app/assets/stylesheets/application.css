@@ -16,3 +16,9 @@
 * {
   margin: 0px;
 }
+
+nav {
+  padding: 5px 5px;
+  background-color: salmon;
+  font-family: Arial, Helvetica;
+}

@@ -2,23 +2,31 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.blogbutton {
+  position: relative;
+  z-index: 200;
+}
 
 .image {
   position: relative;
+  z-index: 100;
 }
 
-.jumbotron {
+h1 {
   color: #02c4f4;
   font-size: 100px;
   font-family: 'Lobster', cursive;
-  position: absolute;
-  z-index: 100;
   text-align: center;
-  opacity: 50%;
-  margin-top: 15%;
-}
-
-.container {
-  padding-left: 20%;
-  padding-right: 20%;
+  position: absolute;
+  z-index: 200;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  line-height: 95px;
 }
