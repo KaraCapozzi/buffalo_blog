@@ -10,7 +10,7 @@
     <th>Title</th>
     <th>Text</th>
   </tr>
-
+<% if @articles.any? %>
   <% @articles.each do |article| %>
     <tr>
       <td><%= article.title %></td>
@@ -22,6 +22,10 @@
               data: { confirm: 'Are you sure?' } %></td>
     </tr>
   <% end %>
+<% else %>
+  <tr>
+    <td><p>There are no articles to display.  Sorry.</p></td>
+  </tr>
 </table>
 </div>
 
