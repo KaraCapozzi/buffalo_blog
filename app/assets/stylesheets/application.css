@@ -14,15 +14,15 @@
  *= require_self
  */
 
-@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
+@import url('//fonts.googleapis.com/css?family=Sedgwick+Ave');
 
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('//fonts.googleapis.com/css?family=Special+Elite');
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
+@import url('//fonts.googleapis.com/css?family=Poppins:300,400');
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('//fonts.googleapis.com/css?family=Montserrat');
 
-@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
+@import url('//fonts.googleapis.com/css?family=Sedgwick+Ave');
 
 * {
   margin: 0px;
