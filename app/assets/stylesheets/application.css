@@ -13,6 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
+
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+
 * {
   margin: 0px;
 }
@@ -20,5 +26,39 @@
 nav {
   padding: 5px 5px;
   background-color: salmon;
-  font-family: Arial, Helvetica;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
+}
+
+.buff_nav {
+  float: right;
+  padding: 5px 5px;
+}
+
+li a::before {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: pink;
+  position: absolute;
+  top: 2;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+li a:hover::before {
+  width: 100%;
+}
+p {
+  font-family: 'Special Elite', cursive;
+  font-weight: 100;
+  font-size: 24px;
+  float: left;
+  color: black;
+}
+
+.buff-gg-image.resize {
+  max-width:50%;
+  max-height:50%;
 }

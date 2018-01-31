@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog</title>
+    <title>BGG Blog</title>
     <%= csrf_meta_tags %>
 
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
@@ -16,9 +16,28 @@
   </head>
 
   <body>
-    <nav>
-    <%= link_to 'Sign Up For The BGG Mailing List!', new_email_api_path %>
-  </nav>
+  <header>
+<section class="bgg-logo">
+  <p>Buffalo
+  <br>Girl Gang.</p>
+</section>
+    <div class="buff_nav">
+      <ul>
+        <li><%= link_to 'HOME', root_path %></li>
+        <li><%= link_to 'BLOG', articles_path %></li>
+        <li><%= link_to 'NEWSLETTER', new_email_api_path %></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+
+    <div class="buff_nav">
+      <div class="buff-group-button">
+        <a href="#" class="buff-sign-in">SIGN UP</a>
+        <a href="#" class="buff-sign-up">SIGN IN</a>
+    </div>
+    </div>
+  </header>
     <%= yield %>
   </body>
 </html>
