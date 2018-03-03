@@ -1,0 +1,246 @@
+/* line 5, /Users/karacapozzi/Code/blog/app/assets/stylesheets/articles.scss */
+table {
+  height: 100%;
+  width: 100%;
+  font-family: 'Vollkorn SC', serif;
+  font-size: 12px;
+}
+
+/* line 12, /Users/karacapozzi/Code/blog/app/assets/stylesheets/articles.scss */
+img {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 17, /Users/karacapozzi/Code/blog/app/assets/stylesheets/articles.scss */
+.buffalo {
+  height: 50%;
+  width: 50%;
+  float: right;
+}
+
+/* line 23, /Users/karacapozzi/Code/blog/app/assets/stylesheets/articles.scss */
+.articles {
+  float: left;
+  padding-left: 5%;
+}
+
+/* line 28, /Users/karacapozzi/Code/blog/app/assets/stylesheets/articles.scss */
+h2 {
+  font-family: 'Lobster', cursive;
+  color: #02c4f4;
+  font-size: 50px;
+  text-align: center;
+  margin: 10px 0 10px 0px;
+}
+/* line 5, /Users/karacapozzi/Code/blog/app/assets/stylesheets/email_api.scss */
+.api {
+  text-align: center;
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Sedgwick+Ave");
+/* line 11, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+/* line 18, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/* line 24, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+.blogbutton {
+  position: relative;
+  z-index: 200;
+}
+
+/* line 29, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+.image {
+  position: relative;
+  z-index: 100;
+}
+
+/* line 34, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+h1 {
+  color: black;
+  font-size: 80px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  position: absolute;
+  z-index: 200;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-10%);
+  line-height: 75px;
+  opacity: 0.75;
+}
+
+/* line 48, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+h4 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  z-index: 200;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%) translateY(650%);
+}
+
+/* line 59, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+header {
+  background: white;
+  color: #fff;
+  padding: 20px 25px;
+  overflow: hidden;
+}
+
+/* line 66, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+footer {
+  text-align: center;
+  font-size: 8px;
+}
+
+/* line 71, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+ul {
+  list-style: none;
+  float: left;
+}
+
+/* line 76, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+li {
+  display: inline-block;
+  margin-left: 30px;
+  position: relative;
+}
+
+/* line 83, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+a {
+  text-decoration: none;
+  color: black;
+  padding-right: 10px;
+}
+
+/* line 89, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+.bgg-logo {
+  padding: 0px 0px 10px 10px;
+}
+
+/* line 93, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+.buff_half {
+  float: left;
+  width: 50%;
+}
+
+/* line 98, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+.buff-group-button {
+  float: right;
+  display: inline-block;
+}
+
+/* line 103, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+.buff-sign-up,
+.buff-sign-in {
+  border-radius: 3px;
+  background-color: lightgrey;
+  margin-right: 8px;
+  color: #333;
+  color: black;
+  padding: 5px 8px;
+}
+
+@media (max-width: 600px) {
+  /* line 115, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+  body {
+    background-color: purple;
+  }
+
+  /* line 119, /Users/karacapozzi/Code/blog/app/assets/stylesheets/welcome.scss */
+  h1 {
+    font-size: 30px;
+    line-height: 25px;
+    top: 40%;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+@import url('//fonts.googleapis.com/css?family=Sedgwick+Ave');
+
+@import url('//fonts.googleapis.com/css?family=Special+Elite');
+
+@import url('//fonts.googleapis.com/css?family=Poppins:300,400');
+
+@import url('//fonts.googleapis.com/css?family=Montserrat');
+
+@import url('//fonts.googleapis.com/css?family=Sedgwick+Ave');
+
+* {
+  margin: 0px;
+}
+
+nav {
+  padding: 5px 5px;
+  background-color: salmon;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
+}
+
+.buff_nav {
+  float: right;
+  padding: 5px 5px;
+}
+
+li a::before {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: pink;
+  position: absolute;
+  top: 2;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+li a:hover::before {
+  width: 100%;
+}
+p {
+  font-family: 'Special Elite', cursive;
+  font-weight: 100;
+  font-size: 24px;
+  float: left;
+  color: black;
+}
+
+.buff-gg-image.resize {
+  max-width:50%;
+  max-height:50%;
+}
+
+.sign-up,
+.log-in {
+  text-align: center;
+}
