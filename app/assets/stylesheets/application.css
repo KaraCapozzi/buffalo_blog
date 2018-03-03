@@ -67,3 +67,8 @@ p {
   max-width:50%;
   max-height:50%;
 }
+
+.sign-up,
+.log-in {
+  text-align: center;
+}

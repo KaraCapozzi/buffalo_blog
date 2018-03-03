@@ -31,11 +31,29 @@
       </ul>
     </div>
 
-    <div class="buff_nav">
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+
+    <!-- <div class="buff_nav">
       <div class="buff-group-button">
         <a href="#" class="buff-sign-in">SIGN UP</a>
         <a href="#" class="buff-sign-up">SIGN IN</a>
-    </div>
+      </div> -->
+
+<div class="buff_nav">
+  <div class="buff-group-button">
+<% if user_signed_in? %>
+  Logged in as <strong><%= current_user.email %></strong>.
+  <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
+  <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+<% else %>
+  <%= link_to "SIGN UP", new_user_registration_path, :class => 'buff-sign-up'  %>
+  <%= link_to "LOG IN", new_user_session_path, :class => 'buff-sign-in'  %>
+<% end %>
+</div>
+</div>
+
+
     </div>
   </header>
     <%= yield %>
